@@ -1,83 +1,66 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <title>Swatch Bharath</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Swachh Bharat - Legacy of Future Generation</title>
   <style>
-    /* Basic styling for the website */
-    body {
-      font-family: Arial, sans-serif;
+    * {
       margin: 0;
       padding: 0;
+      box-sizing: border-box;
     }
 
-    header, nav, section, footer {
-      padding: 20px;
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+      color: #333;
+      background-color: darkgreen;
     }
 
     header {
-      background-color: #333;
-      color: #fff;
+      background-color:Darkgreen;
+      padding: 20px;
       text-align: center;
     }
 
+    h1 {
+      font-size: 28px;
+      font-weight: bold;
+      margin-bottom: 10px;
+      color: white;
+    }
+
     nav ul {
-      list-style-type: none;
-      
-      margin: 0;
-      padding: 0;
-      overflow: hidden;
-      background-color: #f2f2f2;
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      margin-top: 10px;
     }
 
     nav ul li {
-      display: inline-block;
+      margin: 0 10px;
     }
 
-    nav ul li a {
-      display: block;
-      padding: 10px 20px;
-      text-decoration: none;
-      color: #333;
-      transition: background-color 0.3s;
-    }
-
-    nav ul li a:hover {
-      background-color: #ddd;
+    main {
+      padding: 20px;
     }
 
     section {
       margin-bottom: 30px;
+      position: relative;
+      background-color: #fff;
+      padding: 20px;
     }
 
     h2 {
-      color: #333;
       font-size: 24px;
-      font-weight: bold;
       margin-bottom: 10px;
     }
 
     p {
-      color: #666;
-      line-height: 1.5;
-    }
-
-    footer {
-      background-color: #333;
-      color: #fff;
-      text-align: center;
-    }
-
-    .india {
-      position: fixed;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      font-size: 200px;
-      opacity: 0.3;
-      z-index: -1;
-      font-family: "Arial Black", Gadget, sans-serif;
-      text-transform: uppercase;
-      letter-spacing: 20px;
+      margin-bottom: 15px;
+      text-align: justify;
     }
 
     .button {
@@ -86,171 +69,208 @@
       background-color: #333;
       color: #fff;
       text-decoration: none;
-      font-weight: bold;
-      border-radius: 5px;
-      transition: background-color 0.3s;
+      border-radius: 4px;
+      transition: background-color 0.3s ease;
     }
 
     .button:hover {
       background-color: #555;
     }
 
-    /* Additional styles for text */
-    h1 {
-      font-size: 36px;
-      margin-top: 0;
+    .watermark {
+      position: fixed;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
     }
 
-    h2 {
-      font-size: 28px;
-      margin-bottom: 20px;
+    .watermark::before {
+      content: "Clean India, Green India!";
+      color: #fff;
+      font-size: 18px;
+      background-color: rgba(0, 0, 0, 0.5);
+      padding: 10px;
+      border-radius: 4px;
     }
 
-    p {
-      font-size: 16px;
-      margin-bottom: 15px;
-    }
-
-    ul {
-      margin-left: 20px;
-    }
-
-    footer p {
-      font-size: 14px;
-      margin: 0;
-    }
-
-    /* Text styles for specific sections */
-    #home h2 {
-      font-weight: bold;
-      color: #333;
-    }
-
-    #about p {
-      font-style: italic;
-    }
-
-    #Documents p,
-    #Documents form {
+    footer {
+      background-color: #fff;
+      padding: 10px;
       text-align: center;
-    }
-
-    /* Text styles for buttons */
-    .button {
-      font-size: 16px;
-      text-transform: uppercase;
+      font-size: 14px;
     }
   </style>
 </head>
 <body>
   <header>
-    <h1>Welcome to our Temple Maintenance Website</h1>
+    <h1>Swachh Bharat</h1>
   </header>
-
+  <h1><center> Legacy of Future Generation</center></h1>
   <nav>
     <ul>
-      <li><a href="#home" class="button">Home</a></li>
-      <li><a href="#Directory" class="Directory">About Us</a></li>
-      <li><a href="#Documents" class="button">Documents</a></li>
-      <li><a href="#citizen corner" class="button">citizen corner</a></li>
-      <li><a href="login.html" class="button">Login</a></li>
-      <li><a href="signup.html" class="button">Sign Up</a></li>
-
+      <li><a class="button" href="#home">Home</a></li>
+      <li><a class="button" href="#about">About Us</a></li>
+      <li><a class="button" href="#services">Services</a></li>
+      <li><a class="button" href="#contact">Contact</a></li>
+      <li><a class="button" href="#quote">Request Quote</a></li>
     </ul>
   </nav>
+  <main>
+    <section id="home">
+      <h2>Home</h2>
+      <p>
+        
+Swachh Bharat Abhiyan, also known as the Clean India Mission, is a nationwide campaign in India that aims to make the country cleaner and more hygienic. Launched on October 2, 2014, by Prime Minister Narendra Modi, it has become one of the largest cleanliness drives in the world. Swachh Bharat Abhiyan encompasses various initiatives and activities to promote cleanliness and sanitation across urban and rural areas of India.
 
-  <section id="home">
-    <h1><center>A Legacy of Future Generations</center></h1>
-    <h2>welcome to Swatch bharath!</h2>
-    <p>Swachh Bharat Mission (SBM), Swachh Bharat Abhiyan, or Clean India Mission is a country-wide campaign initiated by the Government of India in 2014 to eliminate open defecation and improve solid waste management. The program also aims to increase awareness of menstrual health management. [2] It is a restructured version of the Nirmal Bharat Abhiyan launched in 2009 that failed to achieve its intended targets</p>
-    <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fnvshq.org%2Fessay%2Fessay-on-swachh-bharat-abhiyan%2F&psig=AOvVaw2eXvMDzuDV7Uj3FGh-hI8N&ust=1687697656087000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCICituz52_8CFQAAAAAdAAAAABAE" alt="Chamundi Temple" width="400" height="300">
-  </section>
+The campaign emphasizes the importance of maintaining cleanliness in public places, including streets, parks, schools, and government offices. It encourages citizens to adopt responsible waste management practices and proper sanitation habits. Swachh Bharat Abhiyan seeks to raise awareness about the harmful effects of open defecation and promote the construction and usage of toilets in every household.
 
-  <section id="about">
-    <h2>About Us</h2>
-    <p>Swachh Bharat Abhiyan, also known as the Clean India Mission, is a nationwide cleanliness campaign launched by the Indian government on 2nd October 2014. It aims to achieve cleanliness and sanitation across the country, with a focus on both rural and urban areas. The campaign seeks to bring about a behavioral change in people's attitudes towards cleanliness and hygiene. It promotes the construction of toilets, eradication of manual scavenging, and proper waste management. Swachh Bharat Abhiyan emphasizes the importance of safe disposal of waste, the 3Rs (Reduce, Reuse, Recycle), and active participation of citizens in cleanliness drives. The campaign has made significant progress in improving cleanliness and sanitation infrastructure, constructing millions of toilets, and reducing open defecation practices. It has generated awareness about the importance of cleanliness, leading to the formation of Swachh Bharat volunteers and grassroots initiatives. Swachh Bharat Abhiyan has had a positive impact on tourism, garnered international recognition, and brought about behavioral changes in personal hygiene practices. It has improved sanitation facilities in schools, addressed the issue of open defecation, and promoted eco-friendly practices for waste management. The campaign has fostered partnerships between the government, private sector, and civil society organizations, promoting a collective effort towards cleanliness goals. Swachh Bharat Abhiyan has empowered women, improved public health, created employment opportunities, and inspired other countries to launch similar initiatives. It remains an ongoing mission, with continued implementation crucial for sustained progress in cleanliness and sanitation throughout India.</p>
-  </section>
+The campaign has witnessed significant progress since its inception. The government has undertaken massive infrastructure development projects, including the construction of public toilets, waste management systems, and waste disposal facilities. Swachh Bharat Abhiyan has also focused on behavioral change through extensive community mobilization and awareness programs.
 
-  <section id="directory">
-    <h2>Temple Directory</h2>
-    <p>
-Swachh Bharat Abhiyan, launched on 2nd October 2014 by the Government of India, is a nationwide cleanliness campaign with the objective of achieving cleanliness, proper waste management, and eliminating open defecation practices. It focuses on both rural and urban areas, emphasizing behavioral change and improved sanitation facilities. The campaign promotes the construction of toilets in households, schools, and public places to eradicate open defecation, while also working towards the eradication of manual scavenging and promoting dignity for sanitation workers. Swachh Bharat Abhiyan encourages proper waste management through practices like segregation, recycling, and composting, and promotes the 3Rs (Reduce, Reuse, and Recycle) for effective waste management. It generates public awareness about cleanliness, hygiene, and the harmful effects of open defecation. The campaign aims to bring about a cultural shift and encourage cleanliness as a way of life, with active involvement of citizens, NGOs, and local communities in cleanliness drives. It also focuses on improving public sanitation facilities, especially for women and differently-abled individuals, and ensuring clean and hygienic sanitation facilities in schools. Swachh Bharat Abhiyan organizes cleanliness competitions to foster healthy competition among states and cities, and aims to reduce diseases caused by poor sanitation and improve overall public health. It has also created employment opportunities in the sanitation sector and received international recognition for its efforts towards cleanliness and sanitation. Swachh Bharat Abhiyan is an ongoing mission, emphasizing stakeholder collaboration and behavior change communication, and its continued implementation is crucial for sustained cleanliness and sanitation progress in India..</p>
-  </section>
+To ensure the success of the initiative, the government has actively involved various stakeholders, including citizens, educational institutions, non-governmental organizations (NGOs), and corporate entities. Swachh Bharat Abhiyan has garnered widespread support and participation from people across all walks of life, making it a true people's movement.
 
-  <section id="Documents">
-    <h2>important and confidensial</h2>
-    <a href="https://swachhbharatmission.gov.in/sbmcms/writereaddata/images/pdf/Guidelines/Complete-set-guidelines.pdf">Access documents from hear</a><br>    <a href="https://static.pib.gov.in/WriteReadData/specificdocs/documents/2021/sep/doc202191721.pdf">Access documents from hear</a>
-  </section>
+The impact of Swachh Bharat Abhiyan extends beyond cleanliness and sanitation. It has positively influenced public health by reducing the spread of diseases caused by poor sanitation practices. The campaign has also enhanced India's image on the global stage, showcasing the country's commitment to sustainable development and environmental preservation.
 
-  <section id="citizens corner">
-    <h2>citizens corner</h2>
-   <p>Swachh Bharat Abhiyan is such an initiative of the Central Government in which the contribution of all of us is very important. Every community consists of people of different religions, groups, castes, and other differences, but the cleanliness is valuable for all. The people in a community can together work for keeping their society neat and clean. It would be an inspiration for the other local communities.
+Moreover, Swachh Bharat Abhiyan has created employment opportunities, especially in the areas of waste management and sanitation services. It has encouraged entrepreneurship and innovation in the field of cleanliness and hygiene, promoting a cleaner and greener economy.
 
-Also, people in these communities can walk together to motivate others and teach them the value of cleanliness. A group of people will put a greater impact on people rather than an individual. The community can also gather a fund and arrange a campaign for other people. The community must be opened for other people to join.</p>
-  </section>
+Despite the remarkable progress made, challenges still exist in achieving the campaign's goals. Sustaining the cleanliness drive, ensuring the availability of clean water and sanitation facilities in remote areas, and changing deep-rooted cultural and behavioral norms remain key focus areas.
 
-<style >
-  <h4>voleenter hear</h4>
-  form {
-    max-width: 400px;
-    margin: 0 auto;
-    font-family: Arial, sans-serif;
+Swachh Bharat Abhiyan has become a symbol of national pride and collective responsibility towards building a cleaner and healthier India. It has instilled a sense of ownership and civic duty among citizens, empowering them to actively participate in the country's development.
+
+In conclusion, Swachh Bharat Abhiyan is a transformative movement that has brought about significant changes in India's cleanliness and sanitation landscape. Through concerted efforts and widespread awareness, the campaign continues to inspire and mobilize individuals, communities, and institutions to work towards a Swachh Bharat, a clean and prosperous India.
+</p>
+    </section>
+
+    <section id="about">
+      <h2>About Us</h2>
+      <p>
+       Swachh Bharat Abhiyan, translated as "Clean India Mission," is a nationwide campaign launched by Prime Minister Narendra Modi in 2014. It aims to promote cleanliness, sanitation, and proper waste management across urban and rural areas of India. The campaign focuses on behavioral change, infrastructure development, and community participation to achieve its goals. Swachh Bharat Abhiyan has become one of the largest cleanliness drives in the world, involving citizens, NGOs, educational institutions, and corporate entities. It has had a significant impact on public health, environmental preservation, and the economy. The campaign continues to inspire and empower individuals to contribute to a cleaner and healthier India.
+        <!-- Add more lines of text here -->
+      </p>
+    </section>
+
+    <section id="services">
+      <h2>Services</h2>
+      <p>
+        he Indian government provides several services as part of the Swachh Bharat Abhiyan:
+
+Construction of public toilets in both urban and rural areas to improve sanitation facilities.
+Implementation of waste management systems to ensure proper disposal and recycling of waste.
+Promoting the use of clean cooking fuel, such as LPG, to reduce indoor air pollution caused by traditional cooking methods.
+Conducting awareness campaigns and educational programs to promote hygiene and cleanliness practices.
+Establishing waste segregation and management centers to facilitate proper waste disposal.
+Encouraging the adoption of eco-friendly practices, such as rainwater harvesting and waste composting.
+Providing financial assistance and subsidies to individuals and organizations for the construction of toilets and waste management infrastructure.
+Collaborating with NGOs and community-based organizations to drive community participation and engagement in cleanliness initiatives.
+Enforcing strict penalties and fines for littering, open defecation, and other unhygienic practices.
+Monitoring and evaluation of cleanliness parameters to track the progress of the Swachh Bharat Abhiyan and identify areas that need further improvement.
+      </p>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>
+        https://mohua.gov.in/) or the Swachh Bharat Mission<br> (https://swachhbharatmission.gov.in/)
+        <!-- Add more lines of text here -->
+      </p>
+    </section>
+
+    <section id="quote">
+      <h2>Request Quote</h2>
+      <p>
+        Swachh Bharat Abhiyan, also known as the Clean India Mission, has been an incredible initiative towards transforming India into a cleaner and more hygienic nation. As part of this movement, we understand the importance of collaboration and engagement from various stakeholders. Therefore, we would like to request a quote for your valuable services and expertise in contributing to the Swachh Bharat Abhiyan.
+
+We are seeking assistance in areas such as waste management, construction of public toilets, awareness campaigns, behavioral change programs, and other related initiatives. Your involvement and expertise in these domains would greatly contribute to the success of this nationwide campaign.
+
+We are impressed by your track record and the positive impact you have made in similar projects. We believe that your participation will not only enhance the cleanliness and sanitation infrastructure but also inspire others to actively participate in this transformative journey.
+
+Please provide us with a detailed quote outlining the services you can offer, the timelines for implementation, and any necessary resources or support required. We are committed to creating a cleaner and healthier India, and your contribution will be invaluable in achieving our goals.
+
+We kindly request that you submit your quote at the earliest convenience. Your quote will be carefully reviewed, and we will be in touch to discuss further details and potential collaboration opportunities. Together, let us join hands and contribute to the Swachh Bharat Abhiyan, making a lasting difference in the lives of millions of Indians.
+        <!-- Add more lines of text here -->
+      </p>
+    </section>
+    <style>
+  #volunteers {
+    margin-top: 30px;
   }
 
-  label {
-    display: block;
-    margin-top: 10px;
+  #volunteers h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  th,
+  td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
     font-weight: bold;
   }
 
+  input[type="text"],
+  input[type="email"],
+  input[type="tel"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="tel"]:focus {
+    outline: none;
+    border-color: #777;
+  }
+
+  input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  input type="submit"]:hover {
+    background-color: #555;
+  }
 </style>
+<section id="volunteers">
+  <h2>Volunteers</h2>
+  <table>
+    <tr>
+      <th>Name</th>
+      <th>Email</th>
+      <th>Phone Number</th>
+      <th>Area</th>
+    </tr>
+    <tr>
+      <td><input type="text" name="name" placeholder="Enter your name"></td>
+      <td><input type="email" name="email" placeholder="Enter your email"></td>
+      <td><input type="tel" name="phone" placeholder="Enter your phone number"></td>
+      <td><input type="text" name="area" placeholder="Enter your area"></td>
+      <br>
+      <td><input type="button" name="submit"></td>
+    </tr>
+    <!-- Add more rows for volunteers -->
+  </table>
+</section>
 
-<form action="/submit" method="post">
-  <label for="name">Name:</label>
-  <input type="text" id="name" name="name" required>
-
-  <label for="email">Email:</label>
-  <input type="email" id="email" name="email" required>
-
-   <label for="ph no.">Phone no.</label>
-  <input type="text" id="ph no." name="name" required>
-
-  <label for="message">Message:</label>
-  <textarea id="message" name="message" required></textarea>
-
-  <input type="submit" value="Submit">
-</form>
-
-  </section>
-
-  <section id="contact">
-    <h2>Contact</h2>
-    <p>Get in touch with us for any queries, feedback, or support requests.</p>
-    <p>If you have any questions or would like to get involved with our temple maintenance initiatives, please feel free to reach out to us. We value your feedback and suggestions as we continue our mission to preserve and promote the glory of Indian temples.</p>
-    <p>You can contact us via email, phone, or by filling out the contact form on our website.</p>
-    <p>EMAIL AT:swatchbharath@gmail.com  or<br> CALL US:0861 23555
-  </section>
-
+  </main>
+  <div class="watermark"></div>
   <footer>
-    <p>&copy; 2023 Temple Maintenance Website. All rights reserved.</p>
+    &copy; 2023 Swachh Bharat - Legacy of Future Generation
   </footer>
-
-   <div class="watermark">
-        <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.facebook.com%2Fswachhhbharat%2F&psig=AOvVaw1_3neGwuY9PasAOKlH79Am&ust=1687697734509000&source=images&cd=vfe&ved=0CBEQjRxqFwoTCNDX4ZH62_8CFQAAAAAdAAAAABAJ" alt="Watermark Image">
-        <!-- Your webpage content goes here -->
-    </div>
-
-  <script>
-    // Smooth scrolling
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-      anchor.addEventListener('click', function (e) {
-        e.preventDefault();
-
-        document.querySelector(this.getAttribute('href')).scrollIntoView({
-          behavior: 'smooth'
-        });
-      });
-    });
-  </script>
 </body>
 </html>
